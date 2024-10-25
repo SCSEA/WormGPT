@@ -47,7 +47,7 @@ def view_interactions():
             print(Fore.BLUE + "-" * 40 + Style.RESET_ALL)
 
 def get_api_key():
-    return ""  # Add your API key here
+    return "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"  # Add your API key here
 
 def get_answer(api_key, question):
     openai.api_key = api_key
